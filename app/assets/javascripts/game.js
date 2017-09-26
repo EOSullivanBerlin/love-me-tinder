@@ -3,7 +3,7 @@
 
 var Game = function () {
   this._health = 30;
-  this._wealth = 30;
+  this._wealth = 20;
   this.DATE_COST = 10;
   this.DATE_SATISFACTION = sample([6, -6]);
   this.GIFT_COST = sample([7, -7]);
